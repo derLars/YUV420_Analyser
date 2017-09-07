@@ -1,0 +1,27 @@
+~~~~~General information~~~~~
+
+Author: Lars Schwensen
+Initial date: April 2017
+Developing environment: Qt 3.5.1
+Operating System: Ubuntu 16.04 LTS
+
+Compiler: gcc 5.4.0
+Qt Version: Qt 5.5.1
+Language standard: C++14
+Optimization: 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~Purpose~~~~~~~~~~~
+
+The purpose of this application is to provide some visual analysis options of the YUV 4:2:0 format. 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~Usage~~~~~~~~~~~~
+
+Only Full Reference analysis is supported. Therefore a reference video is necessary. After loading the reference video and the processed videos (decoded), the application provides a visual analysis
+of interframe redundancies, intraframe redundancies as well as the MSE of each single frame. 
+Furthermore the application provides the option of saving the visual analysis as picture.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
